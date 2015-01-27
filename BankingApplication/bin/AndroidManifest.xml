@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.CS1332.bankingapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.CS1332.bankingapplication.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.CS1332.bankingapplication.LoginActivity" />
+        <activity android:name="com.CS1332.bankingapplication.RegisterActivity" />
+        <activity android:name="com.CS1332.bankingapplication.AccountScreenActivity" />
+        <activity android:name="com.CS1332.bankingapplication.TransactionActivity" />
+        <activity android:name="com.CS1332.bankingapplication.CreateTransactionActivity" />
+        <activity android:name="com.CS1332.bankingapplication.DepositHistoryActivity" />
+        <activity android:name="com.CS1332.bankingapplication.WithdrawalHistoryActivity"></activity> 
+        <activity android:name="com.CS1332.bankingapplication.ChangePasswordActivity"></activity>
+        <activity android:name="com.CS1332.bankingapplication.MyAccountActivity"></activity>
+        <activity
+            android:name="com.CS1332.bankingapplication.CreateAccountActivity"
+            android:label="@string/title_activity_create_account" >
+        </activity>
+        <activity android:name="com.CS1332.bankingapplication.CreateReportActivity" />
+            
+    </application>
+
+</manifest>

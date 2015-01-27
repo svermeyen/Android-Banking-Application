@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Banking</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Log-in</string>
+    <string name="welcome">Welcome! Select button to log-in or register.</string>
+    <string name="register">Register</string>
+    <string name="loggedin">You are now logged in.</string>
+    <string name="create_account">Create Account</string>
+    <string name="build_report">Build Report</string>
+    <string name="title_activity_create_account">CreateAccountActivity</string>
+	<string name="full_name">Full name</string>
+	<string name="display_name">Display name (shorter than full)</string>
+	<string name="balance">Balance</string>
+	<string name="mir">Monthly Interest Rate</string>
+	<string name="account">Accounts</string>
+	<string name="deposit">Deposit</string>
+	<string name="withdrawal">Withdraw</string>
+	<string name="view_deposit">View Deposits</string>
+	<string name="view_withdrawals">View Withdrawals</string>
+	<string name="reason">Reason</string>
+	<string name="amount">Amount</string>
+	<string name="date">Date</string>
+	<string name="transaction">Create Transaction</string>
+	<string name="spending_report">Spending Report</string>
+	<string name="my_account">My Account</string>
+	
+</resources>
